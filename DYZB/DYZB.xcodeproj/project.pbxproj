@@ -45,7 +45,6 @@
 		1A67D913222FC602005862FC /* DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A67D917222FC602005862FC /* DYZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBUITests.swift; sourceTree = "<group>"; };
 		1A67D919222FC602005862FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A97ED1B222FFC250001F84E /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +95,8 @@
 		1A67D8F6222FC602005862FC /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
-				1A97ED1B222FFC250001F84E /* Classes */,
+				1ABFBCCA2231542100FAD8A2 /* Classes */,
 				1A67D8F7222FC602005862FC /* AppDelegate.swift */,
-				1A67D8FB222FC602005862FC /* Main.storyboard */,
 				1A67D8FE222FC602005862FC /* Assets.xcassets */,
 				1A67D900222FC602005862FC /* LaunchScreen.storyboard */,
 				1A67D903222FC602005862FC /* Info.plist */,
@@ -122,6 +120,62 @@
 				1A67D919222FC602005862FC /* Info.plist */,
 			);
 			path = DYZBUITests;
+			sourceTree = "<group>";
+		};
+		1ABFBCCA2231542100FAD8A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1ABFBCCB2231542100FAD8A2 /* Follow */,
+				1ABFBCCC2231542100FAD8A2 /* Home */,
+				1ABFBCCD2231542100FAD8A2 /* Live */,
+				1ABFBCCE2231542100FAD8A2 /* Main */,
+				1ABFBCCF2231542100FAD8A2 /* Profile */,
+				1ABFBCD02231542100FAD8A2 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1ABFBCCB2231542100FAD8A2 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		1ABFBCCC2231542100FAD8A2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1ABFBCCD2231542100FAD8A2 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1ABFBCCE2231542100FAD8A2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1A67D8FB222FC602005862FC /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1ABFBCCF2231542100FAD8A2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1ABFBCD02231542100FAD8A2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
